@@ -2,6 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  // usestate does not import from react
+  // it is suggesting to import from "react/cjs/react.production.min"
+  // and from "react/cjs/react.development"
+  const [test, setTest] = useState();
+
   return (
     <div className="App">
       <header className="App-header">
